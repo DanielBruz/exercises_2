@@ -29,5 +29,24 @@
 
 			echo '<br>----<br>';
 
+			while ( $arr )
+			{
+				echo array_pop($arr);
+				if ($arr) echo '<span class="text-warning"> / </span>';
+			}
+
+			echo '<br>----<br>';
+
+			echo '<pre>';
+			print_r ($arr);
+			echo '</pre>';
+
+			echo '<br>----<br>';
+
+
+
+
+
+
 
 		?>
