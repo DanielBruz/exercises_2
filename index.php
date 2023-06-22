@@ -18,18 +18,16 @@
 			echo '</pre>';
 
 			echo '<ul class="list-group text-left">';
-			foreach ($arr as $key => $value) {
+			foreach ($arr as $key => $value)
+			{
 				echo "<li class=\"list-group-item\">
 					<small class=\"text-info\"> $key &hellip;</small>
 					$value
 					</li>";
-
 			}
-
 			echo '</ul>';
-
 
 			echo '<br>----<br>';
 
-		
+
 		?>
