@@ -82,12 +82,7 @@
 			];
 
 			foreach ($directors as $director) {
-				foreach ($director as $key => $value)
-				{
-					echo $key . ': ' . $value . '<br>';
-				}
-				echo '<br>';
+					echo $director['first_name'] . ' ' . $director['last_name'] . '<br>';
 			}
-
 
 		?>
